@@ -263,12 +263,10 @@ a.nav-link:hover{
     width:100%;
 }
 .icon-gallery-container{
-    width:5%;
+    width:5vw;
     float:left;
-    padding: 0px 2px;
+    padding: 0px 1vw;
 }
-
-
 @media screen and (min-width: 350px)  and (max-width: 768px){ 
     .lbl-rev{
         font-size:0.7rem;

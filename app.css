@@ -1,0 +1,384 @@
+html,body{
+    padding:0;
+    margin:0;
+    font-family: Tahoma, sans-serif;
+    height:100%;
+    overflow-x:hidden;
+}
+.t-blue{
+    color:#00d2ff;
+}
+.header-promo{
+    background-color:#e2e8ed;
+}
+.btn-shop-now{
+    background-color:#00d2ff !important;
+    color:white;
+}
+.img-bg{
+    background: url("images/header_star.png") 0px -25px;
+    height:80px;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+    transition: 0.2s;
+}
+#logo{
+    z-index:5;
+    position:relative;
+}
+.header-sticky{
+    padding:0;
+}
+.navbar-brand{
+    margin-right:100px;
+}
+.nav-link{
+    position:relative;
+    color:white !important;
+    z-index:7;
+    font-size:11px;
+    
+}
+a.nav-link:hover{
+    color:#345eb8 !important;
+}
+.navbar-toggler{
+    z-index:2;
+}
+
+.header-stick-color{
+    background-color:#132448;
+}
+.right-header-icons{
+    font-size:0.6rem;
+    color:white;
+}
+.cursor-pointer:hover{
+    cursor:pointer;
+}
+.navbar-dark{
+    color:white !important;
+}
+.shop-now-btn{
+    background-color:#132448;
+    color:white;
+    font-size:17px;
+    line-height:75px;
+    height:75px;
+}
+.color-palette{
+    position:absolute;
+    left:0;
+    padding-top:6px;
+    height:300px;
+    width:22px;
+}
+.palette{
+    height:58.8px;
+    position:relative;
+    width:100%;
+}
+.palette1{
+    background-color:black;
+}
+.palette2{
+    background-color:#132448;
+}
+.palette3{
+    background-color:#174567;
+}
+.palette4{
+    background-color:#194f75;
+}
+.palette5{
+    background-color:#00d2ff;
+}
+.row-shop{
+    margin-top:46px;
+}
+.c{
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+.label-shop{
+    padding:5px;
+    color:gray;
+}
+.lb{
+    letter-spacing: 2px;
+    font-weight: 550;
+    font-size:24px;
+}
+.label-feature{
+    font-size:18px;
+    font-weight:550;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.label-feature-def{
+    white-space: nowrap;
+}
+.aoi{
+    font-weight:600;
+    letter-spacing:3px;
+    font-size:28px;
+
+}
+.label-header-review{
+    font-weight:bold;
+    font-size:19px;
+    line-height:19px;
+}
+.nowrap{
+    white-space:nowrap;
+} 
+.vmattress{
+    position:relative;
+    height:700px;
+    overflow:hidden;
+    background: url('images/vertical_mattresses.png') no-repeat center;
+    background-size:cover;
+}
+.bed-bg{
+    position:relative;
+    height:auto;
+    overflow:hidden;
+    background: url('images/bed-bg.png') no-repeat center;
+    background-size:cover;
+}
+.footer-bg{
+    position:relative;
+    /* height:calc(100vh - 650px); */
+    height:auto;
+    background: url('images/footer-bg.png') no-repeat center;
+    background-size:cover;
+    z-index:4;
+}
+.bg-footer{
+    /* position:absolute; */
+    position:relative;
+    width:100%;
+    height:calc(100vh - 650px);
+    height:auto;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.like-us{
+    border:1px solid #00d2ff;
+    padding:10px;
+    color:#00d2ff;
+    text-align:center;
+    width:250px;
+}
+.x{
+    padding-top:20px;
+}
+.t-blue{
+    padding-bottom:15px;
+    padding-left:15px;
+    font-weight: 600;
+    letter-spacing:1.5px;
+    font-size:20px;
+    font-family:sans-serif;
+
+}
+.d{
+    font-family:sans-serif;
+}
+.thumbnail{
+    position:relative;
+}
+#choose_mattress{
+    position: absolute;
+    left:25%;
+    top:32%;
+    font-size:1.6vw;
+    padding:15px;
+    background-color:#00d2ff;
+    color:white;
+    transition:all 0.5s;
+}
+#choose_mattress:hover{
+    background-color:#00a6ff;
+}
+.bed1{
+    background:url('images/bed1.png') no-repeat center;
+}
+.bed2{
+    background:url('images/bed2.png') no-repeat center;
+}
+.bed2{
+    background:url('images/bed3.png') no-repeat center;
+}
+#rate{
+    padding:0px !important;
+}
+#l-rate{
+   padding-bottom:50px;
+}
+#read{
+    padding-top:50px !important;
+    font-weight: 600;
+}
+#read2{
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.date-blog{
+    padding-top: 18px;
+    padding-bottom:10px;
+}
+.title-blog{
+    font-weight:600;
+    padding-bottom:20px;
+}
+.body-blog,.footer-blog{
+    padding-bottom:17px;
+}
+.date-blog,.title-blog,.body-blog,.footer-blog{
+    color:gray;
+}
+.view-blogs{
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+.view-blogs a{
+    color: gray;
+}
+
+.doubt{
+    padding-top:200px;
+    font-size:25px;
+    font-weight:600;
+}
+.shop-now-btn{
+    text-align:center;
+}
+.icon-gallery img{
+    width:100%;
+}
+.icon-gallery-container{
+    width:5%;
+    float:left;
+    padding: 0px 2px;
+}
+
+
+@media screen and (min-width: 350px)  and (max-width: 768px){ 
+    .lbl-rev{
+        font-size:0.7rem;
+    }
+    .still-doubt{
+        font-size:1.4rem;
+    }
+   .header-promo{
+       font-size:0.6rem;
+       
+   }
+   #shop-now{
+       height:3.5vh !important;
+   }
+   .btn-shop-now{
+       height:5vh;
+       font-size:0.5rem;
+   }
+   .row-shop{
+       margin-top:15px;
+   }
+   .shop-now-btn{
+       height:35px;
+       line-height:35px;
+       font-size:0.6rem;
+   }
+   .label-shop{
+       font-size:0.6rem;
+   }
+ 
+   #mattress-header,#mattress-header2,#mattress-header3{
+    margin:0 !important;
+    padding-left:20px;
+    font-size:1.9rem;
+    padding-top:20px;
+   }
+   #onlywhat, #onlywhat .ml-5{
+     
+       font-size:0.8rem !important;
+       margin:0 !important;
+   }
+   .vmattress .pl-5{
+     margin:0 !important;
+   }
+   .vmattress .mt-4{
+       font-size:20px !important;
+   }.vmattress .pt-2{
+       font-size:12px !important;
+   }
+   #o1,#o2{
+       margin:0 !important;
+   }
+   .oi{
+       padding:0 !important;
+       padding-right:10px !important;
+   }
+
+   #read2{
+       font-size:0.8rem;
+   }
+   .date-blog{
+     
+       font-size:0.8rem;
+   }
+   .title-blog{
+       font-size:1.2rem;
+
+  
+   }
+   .body-blog,.footer-blog{
+       font-size:0.8rem;
+       white-space:nowrap;
+   }
+   
+   
+   .doubt{
+       padding-top:200px;
+       font-size:25px;
+       font-weight:600;
+   }
+   #choose_mattress{
+       position:absolute;
+       left:36%;
+       font-size:2vw;
+       width:30vw;
+   }   
+ 
+
+}
+
+@media screen and (min-width:769px) and (max-width:1200px) {
+    .col-md-3{
+        flex: 0 0 50% !important;
+        max-width:50%;
+    }
+    .lbl{
+       width:100%;
+       position:relative;
+       font-size:1.5vw;
+        
+   }
+   #choose_mattress{
+     position:absolute;
+     top:35%;
+     left:30%;
+     font-size:1.2vw;
+   }
+      
+}
+
+
+
+

@@ -378,6 +378,12 @@ a.nav-link:hover{
    }
       
 }
+@media screen and (min-width:1201px) and (max-width:1920px){
+    #choose_mattress{
+    font: size 1vw;
+    padding:1.2vw;
+    }
+}
 
 
 
